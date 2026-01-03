@@ -1,0 +1,229 @@
+#header{
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+h5{
+    font-size: 20px;
+    color: rgb(255, 98, 0);
+}
+#keys{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#con{
+    width: 90px;
+    display: flex;
+    padding-right: 200px;
+}
+
+#contact{
+    color: black;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 20px;
+    width: 100px;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px grey;
+    cursor: pointer;
+}
+
+#contact:hover{
+  background-color: rgb(255, 98, 0);
+  color: white;
+  box-shadow: 0 0 2px 2px darkorange;
+  text-decoration: none;
+}
+
+.image{
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -90px;
+    margin-left: 100px;
+}
+
+#body{
+    display: flex;
+    color: black;
+    font-size: medium;
+    position: relative;
+    margin-top: 250px;
+    padding-left: 50px;
+    margin-right: 200px;
+    margin-bottom: 0;
+}
+
+#but{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+h4{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+h3{
+    margin: 0;
+    font-size: 40px;
+}
+
+.span1{
+    color: rgb(255, 98, 0);
+}
+
+.span0{
+    color: white;
+    padding: 0;
+}
+#hire{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+}
+#Exp{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    cursor: pointer;
+}
+
+#info{
+    max-width: 700px;
+}
+
+.contact-section{
+    justify-content: center;
+}
+
+a.nav-item{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;   /* IMPORTANT */
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+a.nav-item:hover{
+    color: rgb(255, 98, 0);
+    text-decoration: underline;
+}
+
+.protofolio-page{
+    margin-top: 120px;
+    padding: 60px;
+}
+
+.protofolio-page h5{
+    margin-bottom: 0;
+}
+.services-page{
+    margin-top: 120px;
+    padding: 60px;
+}
+
+.experience-page{
+    margin-top: 120px;
+    padding: 60px;
+}
+
+.projects-page{
+    margin-top: 120px;
+    padding: 60px;
+}
+
+.education-page{
+    margin-top: 120px;
+    padding: 60px;
+}
+
+.contact-page{
+    margin-top: 120px;
+    padding: 60px;
+}
+
+.project{
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.project h5{
+  font-size: 22px;
+  color: rgb(255, 98, 0);
+  margin-bottom: 10px;
+}
+
+.project p{
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.services h5{
+  font-size: 22px;
+  color: rgb(255, 98, 0);
+  margin-bottom: 10px;
+}
+
+.services p{
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.education h5{
+  font-size: 22px;
+  color: rgb(255, 98, 0);
+  margin-bottom: 10px;
+}
+
+.education p{
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.nav-item.active{
+  color: rgb(255, 98, 0);
+  text-decoration: underline;
+}
+
+#contact.nav-item.active{
+  background-color: rgb(255, 98, 0);
+  color: white;
+  box-shadow: 0 0 2px 2px darkorange;
+}
+
+.btn-link{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
